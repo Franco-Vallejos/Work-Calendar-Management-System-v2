@@ -1,0 +1,118 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+  }
+  
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    border-width: thin;
+    border-style: solid;
+    border-color: #000;
+  }
+
+  .modal span{
+    margin: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+
+  }
+  
+
+  .modal-day {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #e6e0e0;
+  }
+
+  .modal-day span,
+  .modal-tittle span
+  {
+    padding: 0.5rem;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    justify-self: center;
+    font-weight: 200;
+    height: auto;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .modal-tittle{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #e6e0e0;
+  }
+
+.container-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 10%;
+  margin-inline: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 5%;
+}
+
+.button-cancel,
+.button-accept{
+  padding: 10px 20px;
+  width: 30%;
+  max-height: 31px;
+  margin-inline: 10%;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-accept{
+  background-color: #66bdff;
+  }
+  
+  .button-cancel{
+  background-color: #ff6666;
+  }
+
+.button-cancel:hover {
+  background-color: #ff4747;
+}
+
+.button-accept:hover {
+  background-color: #87c7f8;
+}

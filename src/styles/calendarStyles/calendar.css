@@ -1,0 +1,60 @@
+.container-calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    margin: 0; 
+}
+.container-monthday{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: auto;
+    padding: 0;
+}
+.container-header{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0;
+    padding: 0;
+}
+
+.container-weekday{
+    border-width: thin;
+    border-style: solid;
+    border-color: #000;
+    height: 2rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container-noCurrentMonth,
+.container-currentMonth{
+    display: flex;
+    flex-direction: column;
+    border-width: thin;
+    border-style: solid;
+    padding: 5%;
+    text-align: center;
+    height: 8.5rem;
+}
+
+
+.container-noCurrentMonth{
+    border-color: #858383;
+    background-color: #f4ebeb;
+}
+
+.container-currentMonth{
+    border-color: #858383;
+}
+
+.container-currentMonth span,
+.container-noCurrentMonth span{
+    font-weight: 500;
+}
+
+.container-selfDaySelected{
+    border-color: rgb(189, 220, 254);
+    box-shadow: 0 0 0 0.2rem rgb(167, 203, 248);
+    background-color: #f0f0f0;
+}

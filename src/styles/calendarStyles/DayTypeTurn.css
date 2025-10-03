@@ -1,0 +1,50 @@
+.container-TM, 
+.container-TT{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 3rem;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.container-names{
+    width: 90%;
+}
+.container-names .container-TM,
+.container-names .container-TT {
+    display: flex;
+    width: 100%;
+    margin: 0.1rem;
+    margin-bottom: 10px;
+    padding: 0rem;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container-names .container-TT span{
+    color: white;
+    font-size: medium;
+    text-align: center;
+    justify-self: center;
+    font-weight: 600;
+}
+
+.container-names .container-TM span{
+    font-size: medium;
+    text-align: center;
+    justify-self: center;
+    font-weight: 600;
+}
+
+.container-TM{
+    background-color: rgb(120, 194, 236);
+}
+
+.container-TT{
+    background-color: rgb(206, 99, 66);
+}

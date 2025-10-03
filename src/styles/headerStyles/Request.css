@@ -1,0 +1,70 @@
+.request-waiting{
+    background-color: rgb(255, 255, 88);
+}
+
+.request-accepted{
+    background-color: rgb(114, 253, 114);
+}
+
+.request-rejected{
+    background-color: rgb(244, 100, 100);
+}
+.request-container {
+    margin-top: 6px;
+    margin-bottom: 3px;
+    padding: 8px 16px;
+    margin-right: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+} 
+.button-elim{
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6666;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-elim:hover {
+    background-color: #ff4747;
+  }
+
+.button-reject{
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6666;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-reject:hover {
+    background-color: #ff4747;
+  }
+
+.button-accept{
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #66bdff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-accept:hover {
+    background-color: #87c7f8;
+  }
+  

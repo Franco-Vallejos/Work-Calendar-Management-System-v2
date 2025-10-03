@@ -1,0 +1,101 @@
+.container-calendarControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container-calendarControls span{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+.container-controls{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-controls span {
+    margin: 0;
+    padding-inline: 100%;
+    margin-inline: 100%;
+    text-align: center;
+    justify-self: center;
+    width: 15vw;
+  }
+  
+  @media (max-width: 768px) {
+    .container-controls span {
+      width: 12vw;
+    }
+  }
+.container-controls button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #66bdff;
+    cursor: pointer;
+}
+
+.container-controls button:hover{
+  background-color: #7fc5fb;
+}
+
+
+.container-month span {
+  margin: 0;
+  padding-inline: 100%;
+  margin-inline: 100%;
+  text-align: center;
+  justify-self: center;
+  width: 15vw;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  /* Agregar estilos adicionales */
+  background-color: #f0f0f0; /* Color de fondo */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 0.5rem 1rem; /* Padding interno */
+}
+
+.container-year span {
+  margin: 1rem;
+  font-family: "Arial", cursive;
+  padding-inline: 100%;
+  margin-inline: 100%;
+  text-align: center;
+  justify-self: center;
+  width: 15vw;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  /* Agregar estilos adicionales */
+  background-color: #f0f0f0; /* Color de fondo */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 0.5rem 1rem; /* Padding interno */
+}
+
+.container-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw; /* Ancho del div */
+  height: 100%; /* Altura del div */
+}
+
+.container-month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw; /* Ancho del div */
+  height: 100%; /* Altura del div */
+}
